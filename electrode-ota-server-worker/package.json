@@ -2,9 +2,21 @@
   "name": "electrode-ota-server-worker",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "electrode-ota-server-diregister": "^4.4.21",
+    "electrode-ota-server-errors": "^4.4.23",
+    "electrode-ota-server-util": "^4.4.23",
+    "express-cassandra": "1.9.0"
+  },
+  "devDependencies": {
+    "electrode-ota-server-logger": "^4.4.23",
+    "electrode-ota-server-test-support": "^4.4.23",
+    "electrode-ota-server-util-dev": "^4.4.19"
   },
   "keywords": [],
   "author": "",
